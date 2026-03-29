@@ -1,0 +1,5 @@
+﻿dataset,element,stage,status,rows,path,note
+ionization,Fe,,downloaded,30,C:\Users\李翰钰\Desktop\ss备份\output\nist_smoke_test\Ionization_Energies_data\Fe_energy.xlsx,
+levels,Fe,1,downloaded,847,C:\Users\李翰钰\Desktop\ss备份\output\nist_smoke_test\Levels_data\Fe_I_Levels.xlsx,
+levels,Fe,2,downloaded,1028,C:\Users\李翰钰\Desktop\ss备份\output\nist_smoke_test\Levels_data\Fe_II_Levels.xlsx,
+lines,Fe,,downloaded,342,C:\Users\李翰钰\Desktop\ss备份\output\nist_smoke_test\Lines_data\Fe_lines.xlsx,

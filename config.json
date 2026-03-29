@@ -1,0 +1,22 @@
+{
+  "temperature_K": 11600.0,
+  "ne_cm3": 1.0e17,
+  "element_mole_fractions": {
+    "Fe": 0.5,
+    "Cu": 0.5
+  },
+  "wavelength_min_nm": 200.0,
+  "wavelength_max_nm": 900.0,
+  "delta_lambda_nm": 0.1,
+  "intensity_mode": "energy",
+  "broadening_mode": "fixed",
+  "fixed_fwhm_nm": 0.3,
+  "targets": ["Fe", "Fe I", "Fe II",  "Cu"],
+  "export_discrete_lines_used": true,
+  "data_dirs": {
+    "lines": "data/Lines_data",
+    "levels": "data/Levels_data",
+    "ionization_energies": "data/Ionization_Energies_data"
+  },
+  "output_dir": "output"
+}

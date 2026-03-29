@@ -1,0 +1,109 @@
+2026-03-29 21:05:29,160 | INFO | Logging initialized. Log file: C:\Users\李翰钰\Desktop\ss备份\output\run_log.txt
+2026-03-29 21:05:29,163 | INFO | === Input Summary ===
+2026-03-29 21:05:29,163 | INFO | temperature_K = 11600.000000
+2026-03-29 21:05:29,163 | INFO | ne_cm3 = 1.000000e+17 (input electron density unit is cm^-3)
+2026-03-29 21:05:29,163 | INFO | element_mole_fractions = {'Fe': 0.5, 'Cu': 0.5}
+2026-03-29 21:05:29,163 | INFO | wavelength_min_nm = 200.000000
+2026-03-29 21:05:29,164 | INFO | wavelength_max_nm = 900.000000
+2026-03-29 21:05:29,164 | INFO | delta_lambda_nm = 0.100000
+2026-03-29 21:05:29,164 | INFO | intensity_mode = energy
+2026-03-29 21:05:29,164 | INFO | broadening_mode = fixed
+2026-03-29 21:05:29,164 | INFO | fixed_fwhm_nm = 0.300000
+2026-03-29 21:05:29,164 | INFO | data_dirs = {'lines': 'C:\Users\李翰钰\Desktop\ss备份\data\Lines_data', 'levels': 'C:\Users\李翰钰\Desktop\ss备份\data\Levels_data', 'ionization_energies': 'C:\Users\李翰钰\Desktop\ss备份\data\Ionization_Energies_data'}
+2026-03-29 21:05:29,164 | INFO | output_dir = C:\Users\李翰钰\Desktop\ss备份\output
+2026-03-29 21:05:29,164 | INFO | cleaned_data_dir = C:\Users\李翰钰\Desktop\ss备份\output\cleaned_data
+2026-03-29 21:05:29,164 | INFO | targets = ['Fe', 'Fe I', 'Fe II', 'Cu']
+2026-03-29 21:05:29,164 | INFO | export_discrete_lines_used = True
+2026-03-29 21:05:29,164 | INFO | Unit conversion: ne_cm3 = 1.000000e+17 cm^-3 converted to ne_m3 = 1.000000e+23 m^-3 for Saha calculations.
+2026-03-29 21:05:29,164 | INFO | Unit conversion: k_B T = 1.601553e-19 J = 9.996107e-01 eV at T = 11600.000000 K.
+2026-03-29 21:05:32,298 | INFO | Parsed line file 'Fe_lines.xlsx' from sheet 'lines1_aMSnOG' with 15942 rows.
+2026-03-29 21:05:32,429 | INFO | Parsed ionization energy file 'Fe_energy.xlsx' from sheet 'Sheet1' with 32 rows.
+2026-03-29 21:05:32,430 | INFO | Supported ion stage chain for Fe = [1, 2, 3]
+2026-03-29 21:05:32,432 | WARNING | Dropping 3 non-data or unparseable line rows for Fe before exporting cleaned data.
+2026-03-29 21:05:32,433 | WARNING | Dropping 445 parsed line rows for Fe outside the supported stage chain [1, 2, 3] while preparing cleaned data. Dropped stage counts = {4: 77, 5: 157, 6: 106, 7: 16, 9: 10, 10: 10, 11: 9, 12: 11, 13: 16, 14: 2, 15: 8, 16: 1, 17: 2, 19: 2, 20: 2, 21: 2, 23: 2, 25: 11, 26: 1}
+2026-03-29 21:05:32,434 | WARNING | Dropping 7906 incomplete or non-physical line rows for Fe before exporting cleaned data.
+2026-03-29 21:05:32,438 | INFO | Prepared cleaned line table for Fe with 7588 rows across stages [1, 2, 3].
+2026-03-29 21:05:33,842 | INFO | Exported cleaned lines table: C:\Users\李翰钰\Desktop\ss备份\output\cleaned_data\lines\Fe_lines.xlsx
+2026-03-29 21:05:34,515 | INFO | Loaded cleaned table 'Fe_lines.xlsx' with 7588 rows.
+2026-03-29 21:05:34,716 | INFO | Parsed levels file 'Fe_one_Levels.xlsx' from sheet 'Sheet1' with 847 rows.
+2026-03-29 21:05:34,717 | WARNING | Dropping 1 invalid level rows for Fe stage 1 before exporting cleaned data.
+2026-03-29 21:05:34,718 | INFO | Prepared cleaned levels table for Fe stage 1 with 846 rows.
+2026-03-29 21:05:34,843 | INFO | Exported cleaned levels table: C:\Users\李翰钰\Desktop\ss备份\output\cleaned_data\levels\Fe_one_Levels.xlsx
+2026-03-29 21:05:34,897 | INFO | Loaded cleaned table 'Fe_one_Levels.xlsx' with 846 rows.
+2026-03-29 21:05:35,143 | INFO | Parsed levels file 'Fe_two_Levels.xlsx' from sheet 'Sheet1' with 1028 rows.
+2026-03-29 21:05:35,146 | WARNING | Dropping 1 invalid level rows for Fe stage 2 before exporting cleaned data.
+2026-03-29 21:05:35,146 | INFO | Prepared cleaned levels table for Fe stage 2 with 1027 rows.
+2026-03-29 21:05:35,237 | INFO | Exported cleaned levels table: C:\Users\李翰钰\Desktop\ss备份\output\cleaned_data\levels\Fe_two_Levels.xlsx
+2026-03-29 21:05:35,295 | INFO | Loaded cleaned table 'Fe_two_Levels.xlsx' with 1027 rows.
+2026-03-29 21:05:35,474 | INFO | Parsed levels file 'Fe_three_Levels.xlsx' from sheet 'Sheet1' with 596 rows.
+2026-03-29 21:05:35,476 | WARNING | Dropping 1 invalid level rows for Fe stage 3 before exporting cleaned data.
+2026-03-29 21:05:35,478 | INFO | Prepared cleaned levels table for Fe stage 3 with 595 rows.
+2026-03-29 21:05:35,538 | INFO | Exported cleaned levels table: C:\Users\李翰钰\Desktop\ss备份\output\cleaned_data\levels\Fe_three_Levels.xlsx
+2026-03-29 21:05:35,569 | INFO | Loaded cleaned table 'Fe_three_Levels.xlsx' with 595 rows.
+2026-03-29 21:05:35,570 | INFO | Dropping 23 ionization-energy rows for Fe outside the supported stage chain [1, 2, 3] while preparing cleaned data.
+2026-03-29 21:05:35,571 | INFO | Prepared cleaned ionization-energy table for Fe with 3 rows covering stages [1, 2, 3].
+2026-03-29 21:05:35,577 | INFO | Exported cleaned ionization table: C:\Users\李翰钰\Desktop\ss备份\output\cleaned_data\ionization_energies\Fe_energy.xlsx
+2026-03-29 21:05:35,582 | INFO | Loaded cleaned table 'Fe_energy.xlsx' with 3 rows.
+2026-03-29 21:05:35,596 | INFO | Partition function U(T) for Fe stage 1 at 11600.000 K = 7.84840292e+01
+2026-03-29 21:05:35,614 | INFO | Partition function U(T) for Fe stage 2 at 11600.000 K = 7.64769851e+01
+2026-03-29 21:05:35,624 | INFO | Partition function U(T) for Fe stage 3 at 11600.000 K = 3.10901763e+01
+2026-03-29 21:05:35,624 | INFO | Saha fraction for Fe stage 1 = 4.40037465e-02
+2026-03-29 21:05:35,624 | INFO | Saha fraction for Fe stage 2 = 9.53852459e-01
+2026-03-29 21:05:35,624 | INFO | Saha fraction for Fe stage 3 = 2.14379401e-03
+2026-03-29 21:05:35,624 | WARNING | Saha truncation note for Fe: the highest included ion stage is truncated in v1.0, so that stage can be overestimated at high temperature.
+2026-03-29 21:05:36,364 | INFO | Parsed line file 'Cu_lines.xlsx' from sheet 'Sheet1' with 2514 rows.
+2026-03-29 21:05:36,466 | INFO | Parsed ionization energy file 'Cu_energy.xlsx' from sheet 'Sheet1' with 35 rows.
+2026-03-29 21:05:36,466 | INFO | Supported ion stage chain for Cu = [1, 2]
+2026-03-29 21:05:36,467 | WARNING | Dropping 3 non-data or unparseable line rows for Cu before exporting cleaned data.
+2026-03-29 21:05:36,468 | WARNING | Dropping 82 parsed line rows for Cu outside the supported stage chain [1, 2] while preparing cleaned data. Dropped stage counts = {3: 65, 13: 1, 14: 1, 15: 1, 16: 2, 17: 1, 18: 1, 28: 10}
+2026-03-29 21:05:36,469 | WARNING | Dropping 2006 incomplete or non-physical line rows for Cu before exporting cleaned data.
+2026-03-29 21:05:36,470 | INFO | Prepared cleaned line table for Cu with 423 rows across stages [1, 2].
+2026-03-29 21:05:36,552 | INFO | Exported cleaned lines table: C:\Users\李翰钰\Desktop\ss备份\output\cleaned_data\lines\Cu_lines.xlsx
+2026-03-29 21:05:36,599 | INFO | Loaded cleaned table 'Cu_lines.xlsx' with 423 rows.
+2026-03-29 21:05:36,776 | INFO | Parsed levels file 'Cu_one_Levels.xlsx' from sheet 'Sheet1' with 365 rows.
+2026-03-29 21:05:36,777 | WARNING | Dropping 71 invalid level rows for Cu stage 1 before exporting cleaned data.
+2026-03-29 21:05:36,777 | WARNING | Dropping 1 duplicate level rows for Cu stage 1 before exporting cleaned data.
+2026-03-29 21:05:36,778 | INFO | Prepared cleaned levels table for Cu stage 1 with 293 rows.
+2026-03-29 21:05:36,810 | INFO | Exported cleaned levels table: C:\Users\李翰钰\Desktop\ss备份\output\cleaned_data\levels\Cu_one_Levels.xlsx
+2026-03-29 21:05:36,829 | INFO | Loaded cleaned table 'Cu_one_Levels.xlsx' with 293 rows.
+2026-03-29 21:05:37,002 | INFO | Parsed levels file 'Cu_two_Levels.xlsx' from sheet 'Sheet1' with 468 rows.
+2026-03-29 21:05:37,003 | WARNING | Dropping 1 invalid level rows for Cu stage 2 before exporting cleaned data.
+2026-03-29 21:05:37,004 | INFO | Prepared cleaned levels table for Cu stage 2 with 467 rows.
+2026-03-29 21:05:37,043 | INFO | Exported cleaned levels table: C:\Users\李翰钰\Desktop\ss备份\output\cleaned_data\levels\Cu_two_Levels.xlsx
+2026-03-29 21:05:37,069 | INFO | Loaded cleaned table 'Cu_two_Levels.xlsx' with 467 rows.
+2026-03-29 21:05:37,069 | INFO | Dropping 27 ionization-energy rows for Cu outside the supported stage chain [1, 2] while preparing cleaned data.
+2026-03-29 21:05:37,070 | INFO | Prepared cleaned ionization-energy table for Cu with 2 rows covering stages [1, 2].
+2026-03-29 21:05:37,078 | INFO | Exported cleaned ionization table: C:\Users\李翰钰\Desktop\ss备份\output\cleaned_data\ionization_energies\Cu_energy.xlsx
+2026-03-29 21:05:37,083 | INFO | Loaded cleaned table 'Cu_energy.xlsx' with 2 rows.
+2026-03-29 21:05:37,087 | INFO | Partition function U(T) for Cu stage 1 at 11600.000 K = 5.18682333e+00
+2026-03-29 21:05:37,095 | INFO | Partition function U(T) for Cu stage 2 at 11600.000 K = 2.11440957e+00
+2026-03-29 21:05:37,095 | INFO | Saha fraction for Cu stage 1 = 8.46369062e-02
+2026-03-29 21:05:37,095 | INFO | Saha fraction for Cu stage 2 = 9.15363094e-01
+2026-03-29 21:05:37,096 | WARNING | Saha truncation note for Cu: the highest included ion stage is truncated in v1.0, so that stage can be overestimated at high temperature.
+2026-03-29 21:05:37,097 | WARNING | Sampling warning: delta_lambda_nm = 0.100000 is larger than fixed_fwhm_nm / 5 = 0.060000. Line shapes may be under-sampled.
+2026-03-29 21:05:40,357 | INFO | Exported discrete line reports: used=C:\Users\李翰钰\Desktop\ss备份\output\discrete_lines_used.xlsx skipped=C:\Users\李翰钰\Desktop\ss备份\output\discrete_lines_skipped.xlsx
+2026-03-29 21:05:40,358 | INFO | === Result Summary ===
+2026-03-29 21:05:40,358 | INFO | Final ion fraction for Fe stage 1 = 4.40037465e-02
+2026-03-29 21:05:40,358 | INFO | Final ion fraction for Fe stage 2 = 9.53852459e-01
+2026-03-29 21:05:40,358 | INFO | Final ion fraction for Fe stage 3 = 2.14379401e-03
+2026-03-29 21:05:40,358 | INFO | Final ion fraction for Cu stage 1 = 8.46369062e-02
+2026-03-29 21:05:40,358 | INFO | Final ion fraction for Cu stage 2 = 9.15363094e-01
+2026-03-29 21:05:40,358 | INFO | Partition function for Fe stage 1 = 7.84840292e+01
+2026-03-29 21:05:40,359 | INFO | Partition function for Fe stage 2 = 7.64769851e+01
+2026-03-29 21:05:40,359 | INFO | Partition function for Fe stage 3 = 3.10901763e+01
+2026-03-29 21:05:40,359 | INFO | Partition function for Cu stage 1 = 5.18682333e+00
+2026-03-29 21:05:40,359 | INFO | Partition function for Cu stage 2 = 2.11440957e+00
+2026-03-29 21:05:40,359 | INFO | Candidate line count = 8011
+2026-03-29 21:05:40,359 | INFO | Used line count = 8011
+2026-03-29 21:05:40,359 | INFO | Skipped line count = 0
+2026-03-29 21:05:40,359 | INFO | Line count filtered by wavelength window = 0
+2026-03-29 21:05:40,359 | INFO | Output files = ['C:\\Users\\李翰钰\\Desktop\\ss备份\\output\\continuous_total.xlsx', 'C:\\Users\\李翰钰\\Desktop\\ss备份\\output\\continuous_Fe.xlsx', 'C:\\Users\\李翰钰\\Desktop\\ss备份\\output\\continuous_Fe_I.xlsx', 'C:\\Users\\李翰钰\\Desktop\\ss备份\\output\\continuous_Fe_II.xlsx', 'C:\\Users\\李翰钰\\Desktop\\ss备份\\output\\continuous_Cu.xlsx', 'C:\\Users\\李翰钰\\Desktop\\ss备份\\output\\discrete_lines_used.xlsx', 'C:\\Users\\李翰钰\\Desktop\\ss备份\\output\\discrete_lines_skipped.xlsx']
+2026-03-29 21:05:40,359 | INFO | Showing total spectrum
+2026-03-29 21:05:40,564 | INFO | Target spectrum diagnostics for Fe: peak_ratio_to_total = 0.727234, integral_ratio_to_total = 0.636161, relative_max_difference_from_total = 9.990916e-01
+2026-03-29 21:05:40,564 | INFO | Showing target spectrum: Fe
+2026-03-29 21:05:40,657 | INFO | Target spectrum diagnostics for Fe I: peak_ratio_to_total = 0.056286, integral_ratio_to_total = 0.053673, relative_max_difference_from_total = 9.999054e-01
+2026-03-29 21:05:40,657 | INFO | Showing target spectrum: Fe I
+2026-03-29 21:05:40,747 | INFO | Target spectrum diagnostics for Fe II: peak_ratio_to_total = 0.727061, integral_ratio_to_total = 0.582486, relative_max_difference_from_total = 9.991863e-01
+2026-03-29 21:05:40,748 | INFO | Showing target spectrum: Fe II
+2026-03-29 21:05:40,847 | INFO | Target spectrum diagnostics for Cu: peak_ratio_to_total = 0.999092, integral_ratio_to_total = 0.363839, relative_max_difference_from_total = 7.272338e-01
+2026-03-29 21:05:40,847 | INFO | Showing target spectrum: Cu
